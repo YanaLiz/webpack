@@ -1,0 +1,28 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --mode=development",
+    "prod": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YanaLiz/webpack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YanaLiz/webpack/issues"
+  },
+  "homepage": "https://github.com/YanaLiz/webpack#readme",
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "stylus": "^0.59.0",
+    "stylus-loader": "^7.1.0",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1"
+  }
+}
